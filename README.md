@@ -1,6 +1,5 @@
 # RecipeHub repositories tree
 
-<div>
 <table style="width: 100%; border-collapse: collapse; text-align: center; table-layout: fixed;">
   <thead>
     <tr>
@@ -19,4 +18,3 @@
     </tr>
   </tbody>
 </table>
-</div>

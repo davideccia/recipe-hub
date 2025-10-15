@@ -1,0 +1,3 @@
+[submodule "recipe-hub-laravel"]
+	path = recipe-hub-laravel
+	url = https://github.com/davideccia/recipe-hub-laravel.git

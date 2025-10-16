@@ -1,4 +1,59 @@
-# RecipeHub repositories tree
+# Goal
+This repository contains an identical REST API and/or frontend application implemented across multiple framework stacks.
+Each implementation maintains functional parity to enable direct architectural comparison.
+
+## Specification
+Each implementation provides:
+- Identical REST endpoints (according to conventions)
+- Same data models (according to conventions)
+- Equivalent frontend UI/UX
+
+# The App
+RecipeHub, an application for recipe management.
+
+## Data Models
+- Users
+- Ingredients
+    - columns
+        - user reference
+            - nullable for common (managed by admins)
+        - name
+        - allergens
+            - as JSON
+- Measurement Units (managed by admins)
+    - columns
+        - name
+        - label (e.g. kg)
+- Recipes
+    - columns
+        - user reference
+        - title
+        - description
+            - nullable
+        - public
+            - default = false
+        - difficulty
+            - max 10
+        - rating
+            - calculated after each new/updated review
+- Ingredient - Recipe (pivot)
+    - columns
+        - ingredient reference
+        - recipe reference
+        - measurement unit reference
+        - quantity
+        - notes
+            - nullable
+- Reviews
+    - columns
+        - recipe reference
+        - value
+            - max 10
+        - title
+        - description
+            - nullable
+
+# Repositories Tree
 
 <table style="width: 100%; border-collapse: collapse; text-align: center; table-layout: fixed;">
   <thead>

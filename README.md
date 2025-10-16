@@ -12,30 +12,35 @@ Each implementation provides:
 RecipeHub, an application for recipe management.
 
 ## Data Models
-| Entity                | Column              | Type/Constraints                                   |
-|-----------------------|---------------------|----------------------------------------------------|
-| **Users**             |                     |                                                    |
-| **Ingredients**       | user_id             | nullable (null = admin-managed common ingredients) |
-|                       | name                |                                                    |
-|                       | allergens           | JSON                                               |
-| **Measurement Units** |                     | admin-managed                                      |
-|                       | name                |                                                    |
-|                       | label               | e.g. "kg"                                          |
-| **Recipes**           | user_id             |                                                    |
-|                       | title               |                                                    |
-|                       | description         | nullable                                           |
-|                       | public              | default: false                                     |
-|                       | difficulty          | max: 10                                            |
-|                       | rating              | calculated on review create/update                 |
-| **Ingredient_Recipe** | ingredient_id       |                                                    |
-|                       | recipe_id           |                                                    |
-|                       | measurement_unit_id |                                                    |
-|                       | quantity            |                                                    |
-|                       | notes               | nullable                                           |
-| **Reviews**           | recipe_id           |                                                    |
-|                       | value               | max: 10                                            |
-|                       | title               |                                                    |
-|                       | description         | nullable                                           |
+| Entity                  | Column                     | Type/Constraints                                   |
+|-------------------------|----------------------------|----------------------------------------------------|
+| **Users**               |                            |                                                    |
+| **Ingredients**         |                            |                                                    |
+|                         | user reference             | nullable (null = admin-managed common ingredients) |
+|                         | name                       |                                                    |
+|                         | allergens                  | JSON                                               |
+| **Measurement Units**   |                            | admin-managed                                      |
+|                         | name                       |                                                    |
+|                         | label                      | e.g. "kg"                                          |
+| **Recipes**             |                            |                                                    |
+|                         | user reference             |                                                    |
+|                         | title                      |                                                    |
+|                         | description                | nullable                                           |
+|                         | public                     | default: false                                     |
+|                         | difficulty                 | max: 10                                            |
+|                         | rating                     | calculated on review create/update                 |
+| **Ingredient - Recipe** |                            |                                                    |
+|                         | ingredient reference       |                                                    |
+|                         | recipe reference           |                                                    |
+|                         | measurement unit reference |                                                    |
+|                         | quantity                   |                                                    |
+|                         | notes                      | nullable                                           |
+| **Reviews**             |                            |                                                    |
+|                         | user reference             |                                                    |
+|                         | recipe reference           |                                                    |
+|                         | value                      | max: 10                                            |
+|                         | title                      |                                                    |
+|                         | description                | nullable                                           |
 
 # Repositories Tree
 

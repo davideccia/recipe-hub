@@ -42,7 +42,7 @@ RecipeHub, an application for recipe management.
 |                         | title                      |                                                    |
 |                         | description                | nullable                                           |
 
-# Repositories Tree
+# Tree
 
 <table style="width: 100%; border-collapse: collapse; text-align: center; table-layout: fixed;">
   <thead>
@@ -52,6 +52,14 @@ RecipeHub, an application for recipe management.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>
+        API List
+      </td>
+      <td>
+        <a target="_blank" href="https://github.com/davideccia/recipe-hub-api-list.git">Click here</a>
+      </td>
+    </tr>
     <tr>
       <td>
         <img style="width: 100%; max-width: 100%; height: auto; display: block;" src="https://raw.githubusercontent.com/laravel/art/refs/heads/master/logo-lockup/5%20SVG/3%20rgb/1%20Full%20Color/laravel-logolockup-rgb-red.svg" alt="Descrizione immagine" />

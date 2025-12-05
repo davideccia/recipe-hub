@@ -1,3 +1,6 @@
 [submodule "recipe-hub-laravel"]
 	path = recipe-hub-laravel
 	url = https://github.com/davideccia/recipe-hub-laravel.git
+[submodule "recipe-hub-nestjs"]
+	path = recipe-hub-nestjs
+	url = https://github.com/davideccia/recipe-hub-nestjs.git

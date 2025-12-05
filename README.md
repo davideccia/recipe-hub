@@ -54,7 +54,7 @@ RecipeHub, an application for recipe management.
   <tbody>
     <tr>
       <td>
-        <img style="width: 100%; max-width: 100%; height: auto; display: block;" src="https://raw.githubusercontent.com/laravel/art/refs/heads/master/logo-lockup/5%20SVG/3%20rgb/1%20Full%20Color/laravel-logolockup-rgb-red.svg" alt="Laravel" />
+        <img style="width: 300px; height: auto; display: block;" src="https://raw.githubusercontent.com/laravel/art/refs/heads/master/logo-lockup/5%20SVG/3%20rgb/1%20Full%20Color/laravel-logolockup-rgb-red.svg" alt="Laravel" />
       </td>
       <td>
         <a target="_blank" href="https://github.com/davideccia/recipe-hub-laravel">Click here</a>
@@ -62,7 +62,7 @@ RecipeHub, an application for recipe management.
     </tr>
     <tr>
       <td>
-        <img style="width: 100%; max-width: 50%; height: auto; display: block;" src="https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg" alt="NestJS" />
+        <img style="text-align:center; width: 100px; height: auto; display: block;" src="https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg" alt="NestJS" />
       </td>
       <td>
         <a target="_blank" href="https://github.com/davideccia/recipe-hub-nestjs">Click here</a>

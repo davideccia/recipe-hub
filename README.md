@@ -62,7 +62,7 @@ RecipeHub, an application for recipe management.
     </tr>
     <tr>
       <td>
-        <img style="width: 100%; max-width: 100%; height: auto; display: block;" src="https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg" alt="NestJS" />
+        <img style="width: 100%; max-width: 50%; height: auto; display: block;" src="https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg" alt="NestJS" />
       </td>
       <td>
         <a target="_blank" href="https://github.com/davideccia/recipe-hub-nestjs">Click here</a>

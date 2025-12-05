@@ -1,17 +1,22 @@
 # Goal
+
 This repository contains an identical REST API and/or frontend application implemented across multiple framework stacks.
 Each implementation maintains functional parity to enable direct architectural comparison.
 
 ## Specification
+
 Each implementation provides:
+
 - Identical REST endpoints (according to conventions)
 - Same data models (according to conventions)
 - Equivalent frontend UI/UX
 
 # The App
+
 RecipeHub, an application for recipe management.
 
 ## Data Models
+
 | Entity                  | Column                     | Type/Constraints                                   |
 |-------------------------|----------------------------|----------------------------------------------------|
 | **Users**               |                            |                                                    |
@@ -42,31 +47,9 @@ RecipeHub, an application for recipe management.
 |                         | title                      |                                                    |
 |                         | description                | nullable                                           |
 
-# Tree
+## Links Tree
 
-<table style="width: 100%; border-collapse: collapse; text-align: center; table-layout: fixed;">
-  <thead>
-    <tr>
-      <th>FW</th>
-      <th>Repo</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <img style="width: 300px; height: auto; display: block;" src="https://raw.githubusercontent.com/laravel/art/refs/heads/master/logo-lockup/5%20SVG/3%20rgb/1%20Full%20Color/laravel-logolockup-rgb-red.svg" alt="Laravel" />
-      </td>
-      <td>
-        <a target="_blank" href="https://github.com/davideccia/recipe-hub-laravel">Click here</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <img style="align-content:center; text-align:center; width: 100px; height: auto; display: block;" src="https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg" alt="NestJS" />
-      </td>
-      <td>
-        <a target="_blank" href="https://github.com/davideccia/recipe-hub-nestjs">Click here</a>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| FW Image                                                                                                                                                | Language     | Link                                             |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|--------------------------------------------------|
+| ![Laravel](https://raw.githubusercontent.com/laravel/art/refs/heads/master/logo-lockup/5%20SVG/3%20rgb/1%20Full%20Color/laravel-logolockup-rgb-red.svg) | PHP          | https://github.com/davideccia/recipe-hub-laravel |
+| ![NestJS](https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg)                                                                               | Node (ts/js) | https://github.com/davideccia/recipe-hub-nestjs  |
